@@ -1,19 +1,87 @@
-.container{
-    border: 1px solid red;
+body{
+    background-color: black;
+    color: white;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.header1{
+    background-color: black;
     display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    /* justify-content: space-evenly; */
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+    height: 100px
 }
-.item1{
-    order: 5;
+.right{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.child1{
-    border: 1px solid red;
-    background-color: aqua;
+.item{
     margin: 10px;
-    height: 50px;
-    width: 50px;
+    border-radius: 15px;
+}
+.right a{
+    text-decoration: none;
+    color: rgb(256, 256, 256);
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.right a:hover{
+    color: rgb(255, 127, 234);
+    background-color: rgb(52, 0, 100);
+}
+#jj{
+    margin-top: 10px;
+}
+.left img{
+    background-color: black;
+    width: 80px;
+    height: 80px;
+}
+.textcontainer{
+    color: white;
+}
+#textcontainer1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lower1{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.pic img{
+    height: 250px;
+    width: 300px;
+}
+h2{
+    font-weight: 500;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    list-style-type: square;
+    color: rgb(205, 200, 50);
+}
+#languages{
+    list-style-type: disc;
+}
+.lower1 a{
+    text-decoration: none; 
+    color: white;
+    padding: 15px;
+    font-family: cursive; 
+}
+.lower1 a:hover{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: black;
 }
